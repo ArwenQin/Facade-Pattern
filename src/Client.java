@@ -1,5 +1,5 @@
 public interface Client {
-  //take user input option,  q for quit
+  //main function here, call functions in facade
 void run();
 
 }
