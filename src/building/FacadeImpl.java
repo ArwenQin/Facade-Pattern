@@ -5,10 +5,10 @@ package building;
  * simplified methods to Client.
  */
 public class FacadeImpl implements Facade {
-  private Floor f1;
-  private Floor f2;
-  private Floor f3;
-  private Floor f4;
+  private final Floor f1;
+  private final Floor f2;
+  private final Floor f3;
+  private final Floor f4;
 
   /**
    * Constructs a FacadeImpl object.

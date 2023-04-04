@@ -10,6 +10,7 @@ public class Client {
     f1.turnOffAllPrinters();
     f1.turnOnAllAirConditioners();
     f1.turnOnFloor1();
+    f1.turnOnAllLights();
     System.out.println(f1.turnOnAllBuilding());
   }
 }
