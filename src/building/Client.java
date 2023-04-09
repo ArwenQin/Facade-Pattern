@@ -1,7 +1,8 @@
 package building;
 
 /**
- * This class represents the Client, which is the only class used by the user. It can access the simplified methods provided by the Facade class.
+ * This class represents the Client, which is the only class used by the user.
+ * It can access the simplified methods provided by the Facade class.
  */
 
 public class Client {
