@@ -1,51 +1,48 @@
 package building;
 
 /**
- * Represents a single floor in the building. Every floor can turn on/off its electronic appliances.
- * We return a String to mock the functionality of turning on/off an electronic appliance.
+ * The interface defines the methods that need to be implemented by all concrete floor classes.
  */
 public interface Floor {
-
   /**
-   * Turns on the lights in this floor.
+   * Turns on the lights on the floor.
    *
-   * @return a String, confirms the lights are turned on
+   * @return a message indicating the success or failure of the operation.
    */
   String turnOnLights();
 
   /**
-   * Turns off the lights in this floor.
+   * Turns off the lights on the floor.
    *
-   * @return a String, confirms the lights are turned off
+   * @return a message indicating the success or failure of the operation.
    */
   String turnOffLights();
 
   /**
-   * Turns on the air conditioner in this floor.
+   * Turns on the air conditioner on the floor.
    *
-   * @return a String, confirms the air conditioner is turned on
+   * @return a message indicating the success or failure of the operation.
    */
   String turnOnAirConditioner();
 
   /**
-   * Turns off the air conditioner in this floor.
+   * Turns off the air conditioner on the floor.
    *
-   * @return a String, confirms the air conditioner is turned off
+   * @return a message indicating the success or failure of the operation.
    */
   String turnOffAirConditioner();
 
   /**
-   * Turns on the printer in this floor.
+   * Turns on the printer on the floor.
    *
-   * @return a String, confirms the printer is turned on
+   * @return a message indicating the success or failure of the operation.
    */
   String turnOnPrinter();
 
   /**
-   * Turns off the printer in this floor.
+   * Turns off the printer on the floor.
    *
-   * @return a String, confirms the printer is turned off
+   * @return a message indicating the success or failure of the operation.
    */
   String turnOffPrinter();
-
 }
