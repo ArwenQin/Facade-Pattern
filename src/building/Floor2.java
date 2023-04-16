@@ -8,7 +8,6 @@ public class Floor2 extends AbstractFloor {
    * Constructs a floor 2 object.
    */
   public Floor2() {
-    super();
-    floorNumber = 2;
+    super(2);
   }
 }
