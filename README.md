@@ -1,11 +1,10 @@
 # Facade-Pattern
+This is a simple demonstration of a building electronic appliance management system, which is an example of Facade Pattern implementation.
+
+## Introduction of Facade Pattern
 The Facade Pattern is a structural design pattern that provides a simplified interface to a more complex subsystem. It aims to reduce complexity and improve code readability by encapsulating multiple components or subsystems behind a single, easy-to-use interface. This pattern can also help to organize code into a more structured and layered architecture.
 
 In the Facade Pattern, a facade class is introduced to manage the interaction between the client and the subsystems. The facade class exposes a high-level interface for the client to interact with, while handling the complex interactions and dependencies between the subsystems internally. This allows the client code to remain simple, while the underlying complexity is hidden and managed by the facade.
-
-## Introduction of Facade Pattern
-Facade Pattern is a structural design pattern that provides a simplified interface to a more complex subsystem. It aims to hide the complexities of the subsystem, making it easier for the client to interact with the system.
-
 ## Introduction of Codes
 ### Overview
 The code is a simple demonstration of a building electronic appliance management system. We assume the building has four floors, and each floor has lights, a printer, and an air conditioner. This system is used by the building manager to turn on/off those electronic appliances.
