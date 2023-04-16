@@ -27,7 +27,8 @@ To run the program, simply execute the Client class. This will demonstrate the f
 
 ## Diagram
 
-![Model databases - Page 4](https://user-images.githubusercontent.com/122495122/232273773-53101aa4-253b-45c5-9d93-ef184ee81ae0.png)
+![Model databases - Facade](https://user-images.githubusercontent.com/122495122/232274456-b5bebac7-3c65-42b3-a021-e5ed9d44fd75.png)
+
 
 
 ## Citations
