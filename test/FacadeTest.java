@@ -20,9 +20,13 @@ public class FacadeTest {
   /**
    * We test that the turnOnAllLights method works as expected.
    */
-  @Test public void testTurnOnAllLights() {
-    assertEquals("Floor 1 lights turned on!\n" + "Floor 2 lights turned on!\n"
-        + "Floor 3 lights turned on!\n" + "Floor 4 lights turned on!\n", facade.turnOnAllLights());
+  @Test public void testTurnOnAlAppliances() {
+    assertEquals("Floor 1 lights turned on!\n" + "Floor 1 air conditioner turned on!\n"
+        + "Floor 1 printer turned on!\n" + "Floor 2 lights turned on!\n"
+        + "Floor 2 air conditioner turned on!\n" + "Floor 2 printer turned on!\n"
+        + "Floor 3 lights turned on!\n" + "Floor 3 air conditioner turned on!\n"
+        + "Floor 3 printer turned on!\n" + "Floor 4 lights turned on!\n"
+        + "Floor 4 air conditioner turned on!\n" + "Floor 4 printer turned on!\n", facade.turnOnAllLights());
   }
 
   /**
@@ -38,8 +42,8 @@ public class FacadeTest {
    * We test that the turnOffAllPrinters method works as expected.
    */
   @Test public void testTurnOffAllPrinters() {
-    assertEquals("Floor 1 printer turned off!\n" + "Floor 2 printer turned off!\n"
-            + "Floor 3 printer turned off!\n" + "Floor 4 printer turned off!\n",
+    assertEquals("Floor 1 printer is already off!\n" + "Floor 2 printer is already off!\n"
+            + "Floor 3 printer is already off!\n" + "Floor 4 printer is already off!\n",
         facade.turnOffAllPrinters());
   }
 
@@ -48,19 +52,23 @@ public class FacadeTest {
    */
   @Test public void testTurnOnAllBuilding() {
     assertEquals("Floor 1 lights turned on!\n" + "Floor 1 air conditioner turned on!\n"
-            + "Floor 1 printer turned on!\n" + "Floor 2 lights turned on!\n"
+            + "Floor 1 printer turned on!\n" + "Floor 1 air conditioner is already on!\n"
+            + "Floor 1 printer is already on!\n" + "Floor 2 lights turned on!\n"
             + "Floor 2 air conditioner turned on!\n" + "Floor 2 printer turned on!\n"
+            + "Floor 2 air conditioner is already on!\n" + "Floor 2 printer is already on!\n"
             + "Floor 3 lights turned on!\n" + "Floor 3 air conditioner turned on!\n"
-            + "Floor 3 printer turned on!\n" + "Floor 4 lights turned on!\n"
-            + "Floor 4 air conditioner turned on!\n" + "Floor 4 printer turned on!\n",
+            + "Floor 3 printer turned on!\n" + "Floor 3 air conditioner is already on!\n"
+            + "Floor 3 printer is already on!\n" + "Floor 4 lights turned on!\n"
+            + "Floor 4 air conditioner turned on!\n" + "Floor 4 printer turned on!\n"
+            + "Floor 4 air conditioner is already on!\n" + "Floor 4 printer is already on!\n",
         facade.turnOnAllBuilding());
   }
 
   /**
-   * We test that the turnOnFloor1 method works as expected.
+   * We test that the turnOnFloor method works as expected.
    */
   @Test public void testTurnOnFloor1() {
     assertEquals("Floor 1 lights turned on!\n" + "Floor 1 air conditioner turned on!\n"
-        + "Floor 1 printer turned on!\n", facade.turnOnFloor1());
+        + "Floor 1 printer turned on!\n", facade.turnOnFloor(1));
   }
 }
