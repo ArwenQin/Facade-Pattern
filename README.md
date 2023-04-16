@@ -30,4 +30,6 @@ To run the program, simply execute the Client class. This will demonstrate the f
 ![Diagram](https://github.com/ArwenQin/Facade-Pattern/blob/6a28d6da2595be72708ca7b41af6acad00269eb1/res/Model%20databases%20-%20Facade.jpeg)
 
 ## Citations
-NA, nothing to cite.
+Java HashMap. [Online]. Available: https://www.w3schools.com/java/java_hashmap.asp. [Accessed: 15-Apr-2023]. 
+“Java AWT tutorial - javatpoint,” www.javatpoint.com. [Online]. Available: https://www.javatpoint.com/java-awt. [Accessed: 15-Apr-2023]. 
+Libretexts, “13.1: Java GUIs- from AWT to swing,” Engineering LibreTexts, 20-Sep-2021. [Online]. Available: https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_Languages/Java_Java_Java_-_Object-Oriented_Programming_(Morelli_and_Walde)/13%3A_Graphical_User_Interfaces/13.01%3A_Java_GUIs-_From_AWT_to_Swing. [Accessed: 15-Apr-2023]. 
