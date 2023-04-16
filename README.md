@@ -22,7 +22,7 @@ The BuildingControlGUI class allows users to interact with the building electron
 ### Assumption
 The floor classes return a String to mock and demostrate the operation of turning on/off electronic appliances.
 
-### Getting Started
+### How to Run
 To run the program, simply execute the Client class. This will demonstrate the functionality of the building electronic appliance management system using the Facade Pattern. You may also use the BuildingControlGUI class for a graphical user interface to control the building's appliances.
 
 ## Diagram
