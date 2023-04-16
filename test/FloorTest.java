@@ -25,7 +25,6 @@ public class FloorTest {
     f2 = new Floor2();
     f3 = new Floor3();
     f4 = new Floor4();
-
   }
 
   /**
@@ -42,10 +41,10 @@ public class FloorTest {
    * We test that the turnOffLights method works as expected.
    */
   @Test public void testTurnOffLights() {
-    assertEquals("Floor 1 lights turned off!\n", f1.turnOffLights());
-    assertEquals("Floor 2 lights turned off!\n", f2.turnOffLights());
-    assertEquals("Floor 3 lights turned off!\n", f3.turnOffLights());
-    assertEquals("Floor 4 lights turned off!\n", f4.turnOffLights());
+    assertEquals("Floor 1 lights are already off!\n", f1.turnOffLights());
+    assertEquals("Floor 2 lights are already off!\n", f2.turnOffLights());
+    assertEquals("Floor 3 lights are already off!\n", f3.turnOffLights());
+    assertEquals("Floor 4 lights are already off!\n", f4.turnOffLights());
   }
 
   /**
@@ -62,10 +61,10 @@ public class FloorTest {
    * We test that the turnOffAirConditioner method works as expected.
    */
   @Test public void testTurnOffAirConditioner() {
-    assertEquals("Floor 1 air conditioner turned off!\n", f1.turnOffAirConditioner());
-    assertEquals("Floor 2 air conditioner turned off!\n", f2.turnOffAirConditioner());
-    assertEquals("Floor 3 air conditioner turned off!\n", f3.turnOffAirConditioner());
-    assertEquals("Floor 4 air conditioner turned off!\n", f4.turnOffAirConditioner());
+    assertEquals("Floor 1 air conditioner is already off!\n", f1.turnOffAirConditioner());
+    assertEquals("Floor 2 air conditioner is already off!\n", f2.turnOffAirConditioner());
+    assertEquals("Floor 3 air conditioner is already off!\n", f3.turnOffAirConditioner());
+    assertEquals("Floor 4 air conditioner is already off!\n", f4.turnOffAirConditioner());
   }
 
   /**
@@ -82,9 +81,9 @@ public class FloorTest {
    * We test that the turnOffPrinter method works as expected.
    */
   @Test public void testTurnOffPrinter() {
-    assertEquals("Floor 1 printer turned off!\n", f1.turnOffPrinter());
-    assertEquals("Floor 2 printer turned off!\n", f2.turnOffPrinter());
-    assertEquals("Floor 3 printer turned off!\n", f3.turnOffPrinter());
-    assertEquals("Floor 4 printer turned off!\n", f4.turnOffPrinter());
+    assertEquals("Floor 1 printer is already off!\n", f1.turnOffPrinter());
+    assertEquals("Floor 2 printer is already off!\n", f2.turnOffPrinter());
+    assertEquals("Floor 3 printer is already off!\n", f3.turnOffPrinter());
+    assertEquals("Floor 4 printer is already off!\n", f4.turnOffPrinter());
   }
 }
