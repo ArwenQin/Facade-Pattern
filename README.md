@@ -27,7 +27,7 @@ To run the program, simply execute the Client class. This will demonstrate the f
 
 ## Diagram
 
-![Diagram](https://github.com/ArwenQin/Facade-Pattern/blob/dfad06e873369c315f02a9ae76c84868f3048eb5/res/Model%20databases%20-%20Facade.jpeg)
+![Diagram](https://github.com/ArwenQin/Facade-Pattern/blob/6a28d6da2595be72708ca7b41af6acad00269eb1/res/Model%20databases%20-%20Facade.jpeg)
 
 ## Citations
 NA, nothing to cite.
