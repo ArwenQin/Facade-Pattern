@@ -20,4 +20,4 @@ The floor classes return a String to mock and demostrate the operation of turnin
 
 ## Diagram
 
-![Model databases - Page 4](res/Model databases - Facade.jpeg)
+![Diagram](res/Model databases - Facade.jpeg)
