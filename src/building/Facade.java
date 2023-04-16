@@ -1,44 +1,52 @@
 package building;
 
 /**
- * This is the Facade class, which can call various methods in Floor classes to manage the building.
- * We didn't list all the possible operations here, but just some examples.
+ * This interface represents a facade for controlling a building's appliances. It provides methods
+ * for turning on and off various appliances for a single floor, all floors, or the entire
+ * building.
  */
-
 public interface Facade {
-
   /**
    * Turns on all lights in the building.
    *
-   * @return a String, confirms all lights in the building are turned on
+   * @return a message indicating the success or failure of the operation.
    */
   String turnOnAllLights();
 
   /**
    * Turns on all air conditioners in the building.
    *
-   * @return a String, confirms all air conditioners in the building are turned on
+   * @return a message indicating the success or failure of the operation.
    */
   String turnOnAllAirConditioners();
 
   /**
    * Turns off all printers in the building.
    *
-   * @return a String, confirms all printers in the building are turned off
+   * @return a message indicating the success or failure of the operation.
    */
   String turnOffAllPrinters();
 
   /**
-   * Turns on all electronic appliances in the building.
+   * Turns on all appliances in the building.
    *
-   * @return a String, confirms all electronic appliances in the building are turned on
+   * @return a message indicating the success or failure of the operation.
    */
   String turnOnAllBuilding();
 
   /**
-   * Turns on all electronic appliances in floor 1.
+   * Turns on all appliances on a single floor of the building.
    *
-   * @return a String, confirms all electronic appliances in floor 1 are turned on
+   * @param floorNumber the number of the floor to turn on the appliances for.
+   * @return a message indicating the success or failure of the operation.
    */
-  String turnOnFloor1();
+  String turnOnFloor(int floorNumber);
+
+  /**
+   * Turns off all appliances on a single floor of the building.
+   *
+   * @param floorNumber the number of the floor to turn off the appliances for.
+   * @return a message indicating the success or failure of the operation.
+   */
+  String turnOffFloor(int floorNumber);
 }
